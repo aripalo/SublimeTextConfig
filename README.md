@@ -10,7 +10,10 @@ Note: Aimed for fresh Sublime Text 2 installation.
 
 1. Install Sublime Text 2
 
-2. In the console run `git clone https://github.com/aripalo/SublimeTextConfig.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User`
+2. In the console run 
+  ```
+  git clone https://github.com/aripalo/SublimeTextConfig.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User
+  ```
 
 3. Open Sublime Text
 
