@@ -1,0 +1,11 @@
+# By default, ignore everything
+/*
+/*/
+
+# ... exept these files
+!.gitignore
+!README.md
+!Preferences.sublime-settings
+!Package Control.sublime-settings
+
+
