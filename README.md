@@ -1,6 +1,6 @@
 # My Sublime Text 2 Configuration
 
-**It sets up Sublime Text 2 with my [preferences](Packages/User/Preferences.sublime-settings) and [plugins](Packages/User/Package%20Control.sublime-settings).**
+**It sets up Sublime Text 2 with my [preferences](Preferences.sublime-settings) and [plugins](Package%20Control.sublime-settings).**
 
 Works on Mac OS X, but should work on every platform (NOTE: installation instructions only for Mac OS X).
 
@@ -16,6 +16,8 @@ Note: Aimed for fresh Sublime Text 2 installation.
 
 2. Close Sublime Text
 
-3. In the console run `git clone https://github.com/aripalo/SublimeTextConfig.git ~/Library/Application\ Support/Sublime\ Text\ 2`
+3. `rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User`
+
+4. In the console run `git clone https://github.com/aripalo/SublimeTextConfig.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User`
 
 
