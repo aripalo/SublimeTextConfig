@@ -22,7 +22,6 @@ Note: Aimed for fresh Sublime Text 2 installation.
 
 5. Restart Sublime Text
 
-6. Wait while Package Manager installs all the [plugins](Package%20Control.sublime-settings). The missing `Monokai Extended`-theme I've setup as a default in the [preferences](Preferences.sublime-settings) will show an error message couple of times and make Sublime Look ugly for a while until it's been installed, so patiance.
-
+6. Wait while Package Manager installs all the [plugins](Package%20Control.sublime-settings). The missing `Monokai Extended`-theme I've setup as a default in the [preferences](Preferences.sublime-settings) **will show an error message couple of times - just click ok and it'll make Sublime Look ugly for a while until it's been installed, so patiance**. The installation of the plugins is usually over in a minute or two.
 
 
