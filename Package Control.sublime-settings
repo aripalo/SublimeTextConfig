@@ -1,6 +1,8 @@
 {
 	"installed_packages":
 	[
+		"Monokai Extended",
+		"Markdown Extended",
 		"ApacheConf.tmLanguage",
 		"Better CoffeeScript",
 		"Color Highlighter",
@@ -10,8 +12,6 @@
 		"Emmet",
 		"GitGutter",
 		"LESS",
-		"Markdown Extended",
-		"Monokai Extended",
 		"Package Control",
 		"Play 2.0",
 		"Puppet",
