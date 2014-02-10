@@ -75,6 +75,7 @@
 	"fold_buttons": false,
 	"folder_exclude_patterns":
 	[
+		"node_modules",
 		".svn",
 		".git",
 		".hg",
@@ -84,7 +85,7 @@
 	"font_options":
 	[
 	],
-	"font_size": 12,
+	"font_size": 12.0,
 	"gpu_window_buffer": "auto",
 	"gutter": true,
 	"highlight_line": true,
