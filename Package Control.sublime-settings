@@ -1,6 +1,7 @@
 {
 	"installed_packages":
 	[
+		"AngularJS",
 		"ApacheConf.tmLanguage",
 		"Better CoffeeScript",
 		"Color Highlighter",
@@ -9,6 +10,7 @@
 		"EJS",
 		"Emmet",
 		"GitGutter",
+		"Handlebars",
 		"LESS",
 		"Markdown Extended",
 		"Monokai Extended",
