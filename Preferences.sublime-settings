@@ -79,7 +79,8 @@
 		".svn",
 		".git",
 		".hg",
-		"CVS"
+		"CVS",
+		".sass-cache"
 	],
 	"font_face": "monaco",
 	"font_options":
