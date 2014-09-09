@@ -14,7 +14,7 @@ Note: Aimed for fresh Sublime Text 2 installation.
 
 2. In the console run 
   ```
-  git clone --recursive https://github.com/aripalo/SublimeTextConfig.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User
+  git clone --recursive https://github.com/aripalo/SublimeTextConfig.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
   ```
 
 3. Open Sublime Text
