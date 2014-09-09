@@ -1,6 +1,8 @@
 # My Sublime Text 2 Configuration
 
-**It sets up Sublime Text 2 with my [preferences](Preferences.sublime-settings) and [plugins](Package%20Control.sublime-settings).**
+
+
+It sets up Sublime Text 2 with my [preferences](Preferences.sublime-settings) and [plugins](Package%20Control.sublime-settings).
 
 Works on Mac OS X.
 
@@ -30,3 +32,7 @@ Note: Aimed for fresh Sublime Text 2 installation.
 3. Let Sublime Text open and wait for Package Manager to install everything.
 
 4. Profit...?
+
+## TODO
+- set the subl binary CLI symlink
+- create a shell script one can download and run to install this whole thing
