@@ -20,6 +20,9 @@ Note: Aimed for fresh Sublime Text 2 installation.
   pkill Sublime
   rm -rf "${SUBLIME_DIR}"/Packages/User
   mv "${TEMP_DIR}"/* "${SUBLIME_DIR}"/Packages
+  mv "${TEMP_DIR}"/.git "${SUBLIME_DIR}"/Packages
+  mv "${TEMP_DIR}"/.gitignore "${SUBLIME_DIR}"/Packages
+  mv "${TEMP_DIR}"/.gitmodules "${SUBLIME_DIR}"/Packages
   rm -rf "${TEMP_DIR}"
   "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl"
   ```
