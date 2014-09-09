@@ -2,7 +2,7 @@
 
 
 
-It sets up Sublime Text 2 with my [preferences](Preferences.sublime-settings) and [plugins](Package%20Control.sublime-settings).
+It sets up Sublime Text 2 with my [preferences](User/Preferences.sublime-settings) and [plugins](User/Package%20Control.sublime-settings).
 
 Works on Mac OS X.
 
