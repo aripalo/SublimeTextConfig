@@ -22,8 +22,10 @@ pkill Sublime
 rm -rf "${SUBLIME_DIR}"/Packages/User
 
 # Move the repo contents (hidden dotfiles as well) to Packages dir
+shopt -q dotglob && DOTGLOB_WAS_OFF=false || DOTGLOB_WAS_OFF=true
 shopt -s dotglob
 mv "${TEMP_DIR}"/* "${SUBLIME_DIR}"/Packages
+${DOTGLOB_WAS_OFF} && shopt -u dotglob
 
 # Delete the temp dir
 rm -rf "${TEMP_DIR}"
