@@ -25,6 +25,6 @@ Note: Aimed for fresh Sublime Text 2 installation.
   "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" --background
   ```
 
-3. Ignore errors and wait for Package Manager to install everything
+3. Let Sublime Text be open in the background and wait for Package Manager to install everything.
 
 4. Profit...?
