@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 
 # Configure Sublime command line tool
 # https://www.sublimetext.com/docs/2/osx_command_line.html
