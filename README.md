@@ -22,9 +22,9 @@ Note: Aimed for fresh Sublime Text 2 installation.
   rm -rf "${SUBLIME_DIR}"/Packages/User
   mv "${TEMP_DIR}"/* "${SUBLIME_DIR}"/Packages
   rm -rf "${TEMP_DIR}"
-  "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" --background
+  "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl"
   ```
 
-3. Let Sublime Text be open in the background and wait for Package Manager to install everything.
+3. Let Sublime Text open and wait for Package Manager to install everything.
 
 4. Profit...?
