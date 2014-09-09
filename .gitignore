@@ -5,7 +5,7 @@
 # ... exept these files
 !.gitignore
 !README.md
-!/User/Preferences.sublime-settings
-!/User/Package Control.sublime-settings
-!/User/Default (OSX).sublime-keymap
-!/Package Control
+!User/Preferences.sublime-settings
+!User/Package Control.sublime-settings
+!User/Default (OSX).sublime-keymap
+!Package Control

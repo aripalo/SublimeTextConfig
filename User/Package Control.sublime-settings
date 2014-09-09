@@ -1,0 +1,29 @@
+{
+	"installed_packages":
+	[
+		"AngularJS",
+		"ApacheConf.tmLanguage",
+		"Better CoffeeScript",
+		"Color Highlighter",
+		"Dust.js",
+		"EditorConfig",
+		"EJS",
+		"Emmet",
+		"GitGutter",
+		"Handlebars",
+		"LESS",
+		"Markdown Extended",
+		"Monokai Extended",
+		"Package Control",
+		"Play 2.0",
+		"Puppet",
+		"Puppet Syntax checking",
+		"Sass",
+		"SCSS",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"TrailingSpaces",
+		"WhoCalled Function Finder",
+		"WordCount"
+	]
+}
