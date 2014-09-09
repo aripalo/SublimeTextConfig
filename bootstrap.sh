@@ -21,10 +21,9 @@ pkill Sublime
 # Make sure Packages/User does not exits
 rm -rf "${SUBLIME_DIR}"/Packages/User
 
-# Move the repo contents to Packages dir
+# Move the repo contents (hidden dotfiles as well) to Packages dir
+shopt -s dotglob
 mv "${TEMP_DIR}"/* "${SUBLIME_DIR}"/Packages
-mv "${TEMP_DIR}"/.gitmodules "${SUBLIME_DIR}"/Packages
-mv "${TEMP_DIR}"/.gitignore "${SUBLIME_DIR}"/Packages
 
 # Delete the temp dir
 rm -rf "${TEMP_DIR}"
