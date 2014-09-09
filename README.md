@@ -14,20 +14,9 @@ Note: Aimed for fresh Sublime Text 2 installation.
 
 2. In the terminal run:
   ```sh
-  SUBLIME_DIR=~/Library/Application\ Support/Sublime\ Text\ 2
-  TEMP_DIR=${TMPDIR}SublimeTextConfig
-  rm -rf "${TEMP_DIR}"
-  git clone --recursive https://github.com/aripalo/SublimeTextConfig.git "${TEMP_DIR}"
-  "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl"
-  pkill Sublime
-  rm -rf "${SUBLIME_DIR}"/Packages/User
-  mv "${TEMP_DIR}"/* "${SUBLIME_DIR}"/Packages
-  mv "${TEMP_DIR}"/.git "${SUBLIME_DIR}"/Packages
-  mv "${TEMP_DIR}"/.gitignore "${SUBLIME_DIR}"/Packages
-  mv "${TEMP_DIR}"/.gitmodules "${SUBLIME_DIR}"/Packages
-  rm -rf "${TEMP_DIR}"
-  "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl"
+  curl -L https://raw.githubusercontent.com/aripalo/my-sublime-text/master/bootstrap.sh | sh
   ```
+  (Which runs the contents of [bootstrap.sh](bootstrap.sh))
 
 3. Let Sublime Text open and wait for Package Manager to install everything.
 
