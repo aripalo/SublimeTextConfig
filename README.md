@@ -13,7 +13,7 @@ Note: Aimed for fresh Sublime Text 2 installation.
 1. Install Sublime Text 2
 
 2. In the console run
-  ```
+  ```sh
   SUBLIME_DIR=~/Library/Application\ Support/Sublime\ Text\ 2
   TEMP_DIR=${TMPDIR}SublimeTextConfig
   rm -rf "${TEMP_DIR}"
