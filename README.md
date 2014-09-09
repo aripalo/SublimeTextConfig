@@ -12,11 +12,19 @@ Note: Aimed for fresh Sublime Text 2 installation.
 
 1. Install Sublime Text 2
 
-2. In the console run 
+2. In the console run
   ```
-  git clone --recursive https://github.com/aripalo/SublimeTextConfig.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
+  SUBLIME_DIR=~/Library/Application\ Support/Sublime\ Text\ 2
+  TEMP_DIR=${TMPDIR}SublimeTextConfig
+  rm -rf "${TEMP_DIR}"
+  git clone --recursive https://github.com/aripalo/SublimeTextConfig.git "${TEMP_DIR}"
+  pkill Sublime
+  rm -rf "${SUBLIME_DIR}"/Packages/User
+  mv "${TEMP_DIR}"/* "${SUBLIME_DIR}"/Packages
+  rm -rf "${TEMP_DIR}"
+  "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" --background
   ```
 
-3. Open Sublime Text
+3. Ignore errors and wait for Package Manager to install everything
 
 4. Profit...?
