@@ -18,6 +18,7 @@ Note: Aimed for fresh Sublime Text 2 installation.
   TEMP_DIR=${TMPDIR}SublimeTextConfig
   rm -rf "${TEMP_DIR}"
   git clone --recursive https://github.com/aripalo/SublimeTextConfig.git "${TEMP_DIR}"
+  "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl"
   pkill Sublime
   rm -rf "${SUBLIME_DIR}"/Packages/User
   mv "${TEMP_DIR}"/* "${SUBLIME_DIR}"/Packages
