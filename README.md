@@ -18,6 +18,6 @@ Note: Aimed for fresh Sublime Text 2 installation.
   ```
   (Which runs the contents of [bootstrap.sh](bootstrap.sh))
 
-3. Let Sublime Text open and wait for Package Manager to install everything.
+3. The script will open Sublime Text in the background and wait for Package Manager to install everything.
 
 4. Profit...?
