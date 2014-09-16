@@ -5,6 +5,7 @@ sudo -v
 
 # Configure Sublime command line tool
 # https://www.sublimetext.com/docs/2/osx_command_line.html
+rm /usr/bin/subl
 ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/bin/subl
 
 # Define paths
@@ -18,7 +19,7 @@ rm -rf "${TEMP_DIR}"
 git clone --recursive https://github.com/aripalo/SublimeTextConfig.git "${TEMP_DIR}"
 
 # Start Sublime Text so we make sure all required folders (mainly ${SUBLIME_DIR} exists
-/usr/bin/subl --background
+subl --background
 
 # ... and then shutdown
 pkill Sublime
@@ -36,6 +37,6 @@ ${DOTGLOB_WAS_OFF} && shopt -u dotglob
 rm -rf "${TEMP_DIR}"
 
 # Start Sublime Text so Package Manager will start to install plugins defined in User/Package Control.sublime-settings
-/usr/bin/subl
+subl
 
 
