@@ -17,8 +17,10 @@ rm -rf "${TEMP_DIR}"
 # Clone the project with its submodules
 git clone --recursive https://github.com/aripalo/SublimeTextConfig.git "${TEMP_DIR}"
 
-# Start (and then shutdown) Sublime Text so we make sure all required folders (mainly ${SUBLIME_DIR} exists
+# Start Sublime Text so we make sure all required folders (mainly ${SUBLIME_DIR} exists
 /usr/bin/subl --background
+
+# ... and then shutdown
 pkill Sublime
 
 # Make sure Packages/User does not exits
