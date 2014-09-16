@@ -15,7 +15,7 @@ rm -rf "${TEMP_DIR}"
 git clone --recursive https://github.com/aripalo/SublimeTextConfig.git "${TEMP_DIR}"
 
 # Start (and then shutdown) Sublime Text so we make sure all required folders (mainly ${SUBLIME_DIR} exists
-subl --background
+~/bin/subl --background
 pkill Sublime
 
 # Make sure Packages/User does not exits
@@ -31,4 +31,4 @@ ${DOTGLOB_WAS_OFF} && shopt -u dotglob
 rm -rf "${TEMP_DIR}"
 
 # Start Sublime Text so Package Manager will start to install plugins defined in User/Package Control.sublime-settings
-subl
+~/bin/subl
