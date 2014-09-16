@@ -5,7 +5,7 @@ sudo -v
 
 # Configure Sublime command line tool
 # https://www.sublimetext.com/docs/2/osx_command_line.html
-rm /usr/bin/subl
+rm -f /usr/bin/subl
 ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/bin/subl
 
 # Define paths
