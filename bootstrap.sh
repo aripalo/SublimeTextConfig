@@ -3,6 +3,10 @@
 # Ask for the administrator password upfront
 sudo -v
 
+# Configure Sublime command line tool
+# https://www.sublimetext.com/docs/2/osx_command_line.html
+ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/bin/subl
+
 # Define paths
 SUBLIME_DIR=~/Library/Application\ Support/Sublime\ Text\ 2
 TEMP_DIR=${TMPDIR}SublimeTextConfig
@@ -14,7 +18,7 @@ rm -rf "${TEMP_DIR}"
 git clone --recursive https://github.com/aripalo/SublimeTextConfig.git "${TEMP_DIR}"
 
 # Start (and then shutdown) Sublime Text so we make sure all required folders (mainly ${SUBLIME_DIR} exists
-"/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" --background
+/usr/bin/subl --background
 pkill Sublime
 
 # Make sure Packages/User does not exits
@@ -30,8 +34,6 @@ ${DOTGLOB_WAS_OFF} && shopt -u dotglob
 rm -rf "${TEMP_DIR}"
 
 # Start Sublime Text so Package Manager will start to install plugins defined in User/Package Control.sublime-settings
-"/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl"
+/usr/bin/subl
 
-# Configure Sublime command line tool
-# https://www.sublimetext.com/docs/2/osx_command_line.html
-ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/bin/subl
+
