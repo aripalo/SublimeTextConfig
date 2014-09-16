@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Ask for the administrator password upfront
+sudo -v
+
 # Define paths
 SUBLIME_DIR=~/Library/Application\ Support/Sublime\ Text\ 2
 TEMP_DIR=${TMPDIR}SublimeTextConfig
@@ -31,4 +34,4 @@ rm -rf "${TEMP_DIR}"
 
 # Configure Sublime command line tool
 # https://www.sublimetext.com/docs/2/osx_command_line.html
-ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/bin/subl
