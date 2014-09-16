@@ -19,7 +19,7 @@ rm -rf "${TEMP_DIR}"
 git clone --recursive https://github.com/aripalo/SublimeTextConfig.git "${TEMP_DIR}"
 
 # Start Sublime Text so we make sure all required folders (mainly ${SUBLIME_DIR} exists
-subl --background
+subl "${TEMP_DIR}" --background
 
 # ... and then shutdown
 pkill Sublime
